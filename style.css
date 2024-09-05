@@ -1,0 +1,112 @@
+header {
+    height: 50px;
+    background-color: #17252A;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    
+    
+}
+
+header a{
+    text-decoration: none;
+    font: bolder;
+    margin-top: 15px;
+    color: #def2f1;
+    font-size: 18px;
+}
+
+
+.box{
+    height: 500px;
+    background-image: url(trip.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline  ;
+}
+
+.loginpage{
+
+    height: 100px;
+    width: 300px;
+    background-color: #3aafa9;
+    text-align: center;
+    color: #feffff;
+
+    border: 1px solid whitesmoke;
+   
+}
+
+.loginpage button {
+    width: 150px;
+    height: 50px;
+    text-transform:capitalize;
+    background-color: #17252A;
+    color: #def2f1;
+    font-size: 25px;
+    font-family: inherit;
+    border: 1px solid #def2f1;
+    border-radius: 25px;
+    
+
+}
+
+img {
+    height: 25px;
+    width: 90px;
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px 5px #17252A;
+}
+
+footer {
+    height: 320px;
+    background-color: #17252A;
+   /* margin-top: 10px;*/
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+
+footer li {
+    color: #def2f1;
+}
+
+footer h4 {
+    color: #def2f1;
+}
+.plane {
+    
+    /*border: 2px solid wheat;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.infor {
+    width: 500px;
+    height: 250px;
+    color: #def2f1;
+    border: 2px solid #def2f1;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 25px;
+    
+}
+
+
+.infor input {
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.infor button {
+    width: 100px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #17252A;
+    color: #def2f1;
+    border: 1px solid #def2f1;
+    margin-top: 20px;
+    box-shadow:4px 3px 5px 0px #3aafa9;
+}
